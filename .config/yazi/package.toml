@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "Lil-Dank/lazygit", rev = "c82794f" }, { use = "yazi-rs/plugins:smart-enter", rev = "600614a" }, { use = "Reledia/glow", rev = "5ce76dc" }]
+
+[flavor]
+deps = []
