@@ -1,0 +1,22 @@
+#gui:
+#  sidePanelWidth: 0.2 # gives you more space to show things side-by-side
+git:
+  paging:
+    colorArg: never
+    pager: ydiff -p cat -s --wrap --width={{columnWidth}}
+
+keybinding:
+    universal:
+      prevItem-alt: 'i'
+      nextItem-alt: 'j'
+      scrollUpMain-alt1: 'I'
+      scrollDownMain-alt1: 'J'
+      filteringMenu: '<c-f>'
+    branches:
+      viewGitFlowOptions: 'k'
+    commits:
+      signOff: false
+    files:
+      ignoreFile: 'k'
+    submodules:
+      init: 'k'
